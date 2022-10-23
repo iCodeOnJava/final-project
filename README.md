@@ -31,6 +31,19 @@ REST - hierarchical resources
     - PATCH http method - partial update
 
 
+MVC (model-view-controller) pattern
+
+View - presented to user
+Controller - manages views
+Model - data management = service + repository
+
+View 
+Controller
+Service - application/business logic
+Repository - manages repository of data (db or other repo)
+
+Controller depends on Service depends on Repository
+
 Project plan
 Topic: Home budget
 Technologies:
